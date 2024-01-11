@@ -15,14 +15,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "versionCode": 2
+      "supportsTablet": true
     },
     "android": {
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff",
-        "versionCode": 2
+        "backgroundColor": "#ffffff"
       },
       "package": "com.arthurbrigueli.TimePump"
     },
