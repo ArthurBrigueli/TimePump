@@ -132,14 +132,16 @@ const styles = StyleSheet.create({
     botoesContainer: {
         flexDirection: 'row',
         justifyContent: 'center',
-        alignContent: 'center'
+        alignContent: 'center',
     },
     botaoComecarSerie: {
         margin: 5,
         padding: 20,
         backgroundColor: '#00a859',
         borderRadius: 100,
-
+        width: 150,
+        justifyContent: 'center',
+        alignItems: 'center'
     },
 
     botaoDescanso:{
@@ -147,6 +149,9 @@ const styles = StyleSheet.create({
         padding: 20,
         backgroundColor: '#3498db',
         borderRadius: 100,
+        width: 150,
+        justifyContent: 'center',
+        alignItems: 'center'
     },
 
     textBotao: {
