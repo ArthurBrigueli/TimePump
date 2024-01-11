@@ -30,7 +30,7 @@ const TimeScreen = () => {
     const minuto = Math.floor(tempoTotal / 60);
     const segundos = tempoTotal % 60;
 
-    if (minuto === 1 && segundos === 0) {
+    if (minuto === 1 && segundos === 30) {
       handleCallNotifications();
       setRunning(false);
     }
