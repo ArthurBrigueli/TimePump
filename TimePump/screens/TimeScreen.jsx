@@ -21,7 +21,7 @@ const TimeScreen = () => {
     if (running) {
       interval = setInterval(() => {
         setTempoTotal((prevTempoTotal) => prevTempoTotal + 1);
-      }, 50);
+      }, 1000);
     }
     return () => clearInterval(interval);
   }, [running]);
