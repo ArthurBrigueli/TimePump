@@ -113,10 +113,11 @@ const TimeScreen = () => {
 
 const styles = StyleSheet.create({
     container: {
-        flexDirection: 'column',
+        flex: 1,
         justifyContent: 'center',
         alignContent: 'center',
         gap: 100,
+        backgroundColor: '#0c0d17'
     },
 
     cronometroContainer: {
